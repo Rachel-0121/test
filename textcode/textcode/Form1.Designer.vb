@@ -25,6 +25,7 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -38,7 +39,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(178, 101)
+        Me.Button2.Location = New System.Drawing.Point(316, 101)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(120, 27)
         Me.Button2.TabIndex = 1
@@ -54,11 +55,21 @@ Partial Class Form1
         Me.Label1.Size = New System.Drawing.Size(0, 16)
         Me.Label1.TabIndex = 2
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(174, 101)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(120, 27)
+        Me.Button3.TabIndex = 3
+        Me.Button3.Text = "クリア (&D)"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(331, 169)
+        Me.ClientSize = New System.Drawing.Size(483, 177)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -74,4 +85,5 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button3 As Button
 End Class
